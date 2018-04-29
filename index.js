@@ -6,6 +6,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  ojbect[key] = value;
+  object[key] = value;
   return object;
 }
